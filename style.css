@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    cursor:pointer;
+}
+.section{
+    margin: 0 15%;
+}
+.header{
+    padding: 0 0;
+    background-color: #1f2937;
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 20px;
+    font-size: 24px;
+}
+.menu li{
+    width: 108px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.menu li a{
+    padding: 20px;
+    display: block;
+}
+.menu li a:hover{
+    background-color: #000000;
+}
+.sub-heading{
+    background-color: #1f2937;
+    color: white;
+}
+.sub-head{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-head h2{
+    font-size: 48px;
+}
+.sub-head .text{
+    padding-right: 50px;
+    width: 50%;
+}
+.text button{
+    margin-top: 50px;
+    border-radius: 8px;
+    color: white;
+    background: #3882f6;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+.text button:hover{
+    background-color: #326ac4;
+}
+.text button:active{
+    background-color: #1f4179;
+}
+.sub-head .image{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 500px;
+    height: 250px;
+}
+.information{
+    padding: 50px;
+    text-align: center;
+}
+.inform h2{
+    font-size: 36px;
+}
+.sub-sections{
+    padding: 50px;
+    display:inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.subsection{
+    padding: 0 50px;
+}
+.boxes{
+    /* padding: 0 50px; */
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+    height: 200px;
+    width: 100%;
+}
+.subsection p{
+    padding: 15px 0;
+}
+.quotes{
+    background-color: #E5E7EB;
+}
+.quote{
+    padding: 100px 7%;
+}
+.quote p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.author{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+.footer-sidebar{
+    padding-left: 220px;
+    color: white;
+}
+.footer-sidebar .box{
+    display: flex;
+    margin: 100px 0;
+    background-color: #3882f6;
+    width: 80%;
+    height: 130px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+.box button{
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+.box button:hover{
+    background-color: #326ac4;
+}
+.box button:active{
+    background-color: #1f4179;
+}
+.footer{
+    color: white;
+    background-color: #1f2937;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
